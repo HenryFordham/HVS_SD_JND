@@ -1,3 +1,5 @@
+This is the torch version code of the paper: HVS-Inspired Signal Degradation Network for Just Noticeable Difference Estimation
+
 python test.py  --path /data/xy/data/kodak/ --lmbda=10
 lmbda is the distortion parameter of the HVS-SD-JND
 path is the testing data path.
