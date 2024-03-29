@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="zhangqi@43.247.178.90:3996 password (3)" confirmBeforeDeletion="false">
+    <option name="confirmBeforeDeletion" value="false" />
+    <serverData>
+      <paths name="GPU_NTU">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/disk10T/Henry/grad-cam-pytorch_copy" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zhangqi@43.247.178.90:3996 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/xy/HVS_SD_JND" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a58f2e0d-79ad-46e9-a003-7a29c28fb90e" name="GPU_NTU">
+        <fileTransfer accessType="SFTP" sshConfigId="4a59ef67-0b4b-4cba-bc2f-483d2babadde" sshConfig="jinjian@8.219.167.72:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
