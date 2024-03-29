@@ -17,7 +17,7 @@ The three-channel-PSNR of the distorted images and original images will be gener
 `--lmbda` is the distortion parameter of the HVS-SD-JND.
 `--path` is the testing data path.
 
-### checkpoints
+### Checkpoints
 The weight files canbe downloaded as the following link (https://pan.baidu.com/s/1jWw2G9Tlr1-SPghcSdAqiw?pwd=xv3a). Then put all of the files into `./checkpoints`
 
 ## Citation
