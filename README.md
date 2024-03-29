@@ -1,9 +1,9 @@
 # HVS-Inspired Signal Degradation Network for Just Noticeable Difference Estimation
-![Figure 2](./assets/Fig.pdf)
-This repository is the implementation of ["HVS-Inspired Signal Degradation Network for Just Noticeable Difference Estimation"](https://arxiv.org/abs/2108.09551) 
+![Figure 2](./assets/Fig.svg)
+This repository is the implementation of ["HVS-Inspired Signal Degradation Network for Just Noticeable Difference Estimation"](https://arxiv.org/abs/2208.07583) 
 
 > **Abstract:**
-> Significant improvement has been made on just noticeable difference (JND) modelling ([SFT](https://arxiv.org/abs/2208.07583)) due to the development of deep neural networks, especially for the recently developed unsupervised-JND generation models. 
+> Significant improvement has been made on just noticeable difference (JND) modelling ([HVS-SD JND](https://arxiv.org/abs/2208.07583)) due to the development of deep neural networks, especially for the recently developed unsupervised-JND generation models. 
 > However, they have a major drawback that the generated JND is assessed in the real-world signal domain instead of in the perceptual domain in the human brain. 
 > There is an obvious difference when JND is assessed in such two domains since the visual signal in the real world is encoded before it is delivered into the brain with the human visual system (HVS). 
 > Hence, we propose an HVS-inspired signal degradation network for JND estimation. 
@@ -14,8 +14,8 @@ This repository is the implementation of ["HVS-Inspired Signal Degradation Netwo
 ### Running
 `$ python test.py  --path /data/xy/data/kodak/ --lmbda=10` \
 The three-channel-PSNR of the distorted images and original images will be generated.
---lmbda is the distortion parameter of the HVS-SD-JND
---path is the testing data path.
+`--lmbda` is the distortion parameter of the HVS-SD-JND.
+`--path` is the testing data path.
 
 ## Citation
 ```bibtex
