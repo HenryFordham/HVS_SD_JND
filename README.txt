@@ -1,5 +1,3 @@
-run ./test.py to test the HVS-JND
-First, you have to change line 157:
-	images, raw_images = load_images(str("/mnt/disk10T/Henry/src_imgs/") + str(number) + str(".png"))
-	this path is the test data
-Then, run python test.py
+python test.py  --path /data/xy/data/kodak/ --lmbda=10
+lmbda is the distortion parameter of the HVS-SD-JND
+path is the testing data path.
